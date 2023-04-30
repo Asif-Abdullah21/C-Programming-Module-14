@@ -3,7 +3,7 @@ syntax of a function:
 
 return_type name(parameter)
 {
-
+    //code
     return s;
 }
 
