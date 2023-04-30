@@ -1,7 +1,20 @@
-#include<stdio.h>
+/*
+syntax of a function:
+
+return_type name(parameter)
+{
+
+    return s;
+}
+
 int main()
 {
-    
-    
-    return 0;
+    int s = name(value);
+    printf("%d",s);
 }
+
+main function er pore function lekhte chaile function ta age declare kore dite hbe
+like: return_type name(parameter);
+
+
+*/
