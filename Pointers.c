@@ -2,22 +2,21 @@
 int main()  
 {
     int x = 10;
-    printf("%p\n", &x);     /// x er address print (ekhane: 0061FF18) ///
+    printf("%p\n", &x);     // x er address: 0061FF18
     
-    int *p = &x;            /// *p hocche x er pointer (ekhane: 0061FF18)///
-    printf("%p\n", p);     /// *p pointer er value print (*p pointer er moddhe ashole x er address e ache) ///
+    int* p = &x;// or int *p = &x;  --- *p hocche x er pointer
+    printf("%p\n", p);     ///  pointer p er value holo x er adress (output: 0061FF18)
 
-    /// derefference ///
+    /// derefference:
 
-    printf("%d\n", *p);    /// *p pointer er maddhome x er value print kora (ekhane: 10) /// 
+    printf("%d\n", *p);    /// *p pointer er maddhome x er value print (output: 10)
     
-    *p = 500;
-    printf("%d\n", x);    /// 500 print hobe....karon *p == x. tai * er moddhe ja ja change kora hobe x er moddheo tai tai change hobe ///
+    //p = 500 bolle x change hobe na karon ekhane p er adress change kore ditesi
+    *p = 500; 
+    printf("%d\n", x);    /// 500 print hobe....karon *p == x. tai *p er moddhe change korle x e moddheu change hoye jabe karon tader adress same
+  
+    x = 200;
+    printf("%d\n", *p);  //*p r x er adress same tai x a change korleu 8p te change hoye jbe
 
     return 0;
 }
-
-/*
-    *p == x
-    *p te kichu change korle sheta x eo change hobe and vice versa //
-*/
