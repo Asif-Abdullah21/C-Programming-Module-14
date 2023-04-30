@@ -4,8 +4,8 @@ int main()
 {
     int a=5,b=3;
    // ans = ceil(pow(a,b));//125
-    int ans = pow(a*1.0,b*1.0);
-    printf("Power: %d\n",ans);
+    double ans = pow(a*1.0,b*1.0);
+    printf("Power: %.0lf\n",ans);
     
     return 0;
 }
