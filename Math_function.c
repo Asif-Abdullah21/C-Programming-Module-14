@@ -40,7 +40,7 @@ int main()
 
     aa=5,bb=3;
 
-    x = pow(aa,bb);//125
+    x = pow(aa,bb);//125 //it works perfectly on floating value
 
     printf("Power: %.0lf\n",x);
    
