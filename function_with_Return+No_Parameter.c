@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int sum(void)
+int sum(void)//int sum()
 {
     int a,b;
     scanf("%d %d",&a,&b);
