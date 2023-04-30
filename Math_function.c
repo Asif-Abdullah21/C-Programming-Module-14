@@ -38,6 +38,12 @@ int main()
 
     printf("Power: %.2lf\n",x);
 
+    aa=5,bb=3;
+
+    x = pow(aa,bb);//125
+
+    printf("Power: %.0lf\n",x);
+   
     int value = -44;
     ans = abs(value); //#include<stdlib.h>
 
